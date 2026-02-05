@@ -22,3 +22,7 @@ if result:
     print(f"target {target} found in the array")
 else :
     print(f"target not found in array")
+
+#function -> while for the arrays -> current sum whihc is the left and right to see the maximum sum (note that it is only possible when the array is sorted ->check if current sum is equal to the target)
+#if less that the target the do the left +=1 and right -=1 so thye move inwards to find the sum 
+#and then call the function give it your array and your target
